@@ -1,0 +1,249 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+
+
+/* Header */
+
+.header-container {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-container .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header-container img {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-container a {
+  padding-right: 25px;
+  padding-left: 25px;
+  line-height: 65px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  float: right;
+}
+
+.header-container a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
+/* ~Header */
+
+
+/* Main */
+
+/* top */
+.top-container {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.top-container .container {
+  padding: 180px 0 100px 0;
+}
+
+.top-container h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: white;
+  opacity: 0.7;
+}
+
+.top-container p {
+  color: white;
+  opacity: 0.7;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  padding-right: 5px;
+}
+
+.signup {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  background-color: #239b76;
+}
+
+.facebook {
+  margin-top: 15px;
+  margin-right: 10px;
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+
+/* ~top */
+
+/* lesson */
+.lesson-container {
+  text-align: center;
+  background-color: #f7f7f7;
+  height: 580px;
+}
+
+.lesson-container .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.lesson-container h2 {
+  padding-top: 80px;
+  color: #5f5d60;
+  font-weight: normal;
+  padding-bottom: 50px;
+}
+
+.lesson {
+  width: 25%;
+  float: left;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.lesson .context {
+  width: 80%;
+  padding-top: 15px;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+/* ~lesson */
+
+/* message */
+
+.message-container {
+  text-align: center;
+}
+
+.message-container .container {
+  width: 1170px;
+  margin: 80px auto;
+}
+
+.message-container h2 {
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.message-container h3 {
+  color: #5f5d60;
+  margin-bottom: 50px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  opacity: 0.8;
+  box-shadow: 0 7px #1a7940
+}
+
+.message:hover {
+  opacity: 1;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 6px;
+}
+
+/* ~message */
+
+/* ~Main */
+
+
+/* Footer */
+
+.footer-container {
+  border-top: 1px solid #eee;
+}
+
+.footer-container .container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-container img {
+  width: 124px;
+}
+
+.footer-container p {
+  font-size: 12px;
+  color: #b3aeb5;
+}
+
+/* ~Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
